@@ -4,6 +4,14 @@ A teaching example for motion planning, planning-scene manipulation, and gripper
 
 > **Scope:** this repository demonstrates a MoveIt/RViz planning-scene simulation. The cube attachment is logical/visual rather than a physics-based grasp. Do not run the example unchanged on a physical robot.
 
+## Demo
+
+<p align="center">
+  <img src="frankamovit.png" alt="Franka Emika Panda pick-and-place in RViz using ROS 2 Humble and MoveIt 2" width="900">
+</p>
+
+<p align="center"><b>Franka Emika Panda pick-and-place planning scene in RViz using ROS 2 Humble and MoveIt 2.</b></p>
+
 ## Project overview
 
 The ROS 2 node sends pose-constrained motion requests to MoveIt, commands the Panda gripper through `GripperCommand`, and updates the MoveIt planning scene with a table and cube.
