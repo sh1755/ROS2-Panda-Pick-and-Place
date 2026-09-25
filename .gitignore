@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.save
+*.save.*
+build/
+install/
+log/
+.vscode/
+.idea/
